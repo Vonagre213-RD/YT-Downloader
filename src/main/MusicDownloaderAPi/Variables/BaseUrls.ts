@@ -1,0 +1,5 @@
+const ytDLDownloadUrl = "https://release-assets.githubusercontent.com/github-production-release-asset/307260205/8775f6ef-2b55-468e-afc0-725d794ecf06?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-05-30T00%3A33%3A46Z&rscd=attachment%3B+filename%3Dyt-dlp.exe&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-05-29T23%3A33%3A16Z&ske=2026-05-30T00%3A33%3A46Z&sks=b&skv=2018-11-09&sig=MCCXorplGAmcGlOc4HAi%2FjgcmhTGgPSPTJzyaB1U9wk%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4MDEwMDAxNCwibmJmIjoxNzgwMDk4MjE0LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.2m6PXQz6rQtrzEsLGIhUnjwH34f5pmdT67AXREsKj3A&response-content-disposition=attachment%3B%20filename%3Dyt-dlp.exe&response-content-type=application%2Foctet-stream"
+
+const ffmpegDownloadUrl = "https://www.gyan.dev/ffmpeg/builds/packages/ffmpeg-8.1.1-essentials_build.7z"
+
+export { ytDLDownloadUrl, ffmpegDownloadUrl}
