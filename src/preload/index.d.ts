@@ -9,7 +9,7 @@ declare global {
       testingIpc: () => {}
       getMetadata: (urls: string[]) => promise<{}>
       dialogOpenDirectory: () => string
-      downloadVideo: (formatId: string, url: string, output: string) => promise<boolean>
+      downloadVideo: (formatId: string, url: string, output: string,  formatType:string ) => promise<boolean>
       sendCookies: (cookies: Uint8Array<ArrayBuffer>) => {}
       saveUserSettings: (userSettings: userConfigInterface) => promise<errorType[]>
       getConfigData: () => Promise<userConfigInterface>

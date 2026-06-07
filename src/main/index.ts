@@ -62,7 +62,7 @@ app.whenReady().then(() => {
   })
 
   // IPC test
-  ipcMain.on('ping', () => console.log('pong'))
+  ipcMain.on('ping', () => {})
 
   ipcMain.handle('dialog:openDirectory', async () => {
     const { canceled, filePaths } = await dialog.showOpenDialog({
@@ -111,10 +111,10 @@ app.whenReady().then(() => {
 
   ipcMain.handle(
     'downloadVideo',
-    async (_event, format_id: string, url: string, output: string) => {
+    async (_event, format_id: string, url: string, output: string,  formatType: string) => {
       cleanFullDataReport()
 
-      await DownloadMedia(format_id, url, output)
+      await DownloadMedia(format_id, url, output, formatType)
     }
   )
 

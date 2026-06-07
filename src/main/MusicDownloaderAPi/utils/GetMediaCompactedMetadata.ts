@@ -11,7 +11,6 @@ import { userConfig } from '../Variables/userConfig.js'
 export default async function GetUrlsCompactedMetadata(): Promise<FullReportData> {
   for (const url of userConfig.settings.urls) {
     try {
-      console.log("getUrlCompactedMetadata loop url" + url)
       const MetaData: mediaFullMetadata | PlaylistData = await GetMediaMetaData(
         url,
         userConfig.settings.listStart,

@@ -33,7 +33,6 @@ export default function MainSubmitForm({
     
     setVideos(data)
     setLoading(false)
-    console.log(settings.settings.urls )
   }
   const theresAVideo = (): void => {
     if (urlRef.current! == null) {

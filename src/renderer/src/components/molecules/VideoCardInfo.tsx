@@ -7,7 +7,6 @@ export default function VideoCardInfo({ video }: { video: MediaCompactedData }):
   const videoQualities = video.format_data.find((f) => f.format === 'Video')?.qualities ?? []
   const audioQualities = video.format_data.find((f) => f.format === 'Audio Only')?.qualities ?? []
 
-  console.log(video)
   return (
     <div className="border-t border-neutral-800 p-4">
       {videoQualities.length > 0 && (
@@ -23,6 +22,7 @@ export default function VideoCardInfo({ video }: { video: MediaCompactedData }):
                   url={video.video_url}
                   key={q.qualityId}
                   formatId={q.qualityId}
+                  formatType='video'
                   formatNote={`Resolution: ${q.format_note}`}
                   filesize={BytesToMegaByte(q.filesize_approx)}
                 />
@@ -43,6 +43,7 @@ export default function VideoCardInfo({ video }: { video: MediaCompactedData }):
                   key={q.qualityId}
                   formatId={q.qualityId}
                   url={video.video_url}
+                  formatType='audio_only'
                   formatNote={`Audio Quality ${q.abr} kbps`}
                   filesize={BytesToMegaByte(q.filesize_approx)}
                 />

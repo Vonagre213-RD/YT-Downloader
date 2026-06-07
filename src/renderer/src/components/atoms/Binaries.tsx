@@ -57,7 +57,7 @@ export default function Binaries({
   }
 
   return (
-    <div className="fixed top-4 right-4 flex flex-col gap-2">
+    <div className="absolute top-4 right-4 flex flex-col gap-2">
       <button
         onClick={handleInstallYtDlp}
         className="px-4 py-2 text-sm bg-neutral-800 text-neutral-300 rounded-md hover:bg-neutral-700 hover:text-neutral-100 transition-colors"

@@ -6,7 +6,7 @@ import {app} from 'electron'
 
 export default function LoadUserData(): void {
       const settingsFilePath = path.join(app.getPath('userData'), 'settings/settings.json')
-    
+        const musicPath = path.join(app.getPath('music'), 'YT-Downloader')
 
 
     if(!fs.existsSync(settingsFilePath)){
@@ -14,7 +14,7 @@ export default function LoadUserData(): void {
             listStart: 1,
             listEnd: 40,
             urls: [],
-            outputPath: '',
+            outputPath: musicPath,
             cookies: null
          }
         return

@@ -26,7 +26,6 @@ export async function installYtDlp(): Promise<{ success: boolean; errors: errorT
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     await finished(Readable.fromWeb(res!.body as any).pipe(fileWriteStream))
 
-    console.log("Hola")
     return { success: true, errors: [] }
 
 
