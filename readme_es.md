@@ -1,4 +1,4 @@
-# YT-Downloader 🎥🎵
+# YT-Downloader 
 
 ![Electron](https://img.shields.io/badge/Electron-191970?style=for-the-badge&logo=Electron&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)

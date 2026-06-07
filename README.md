@@ -1,4 +1,4 @@
-# YT-Downloader 🎥🎵
+# YT-Downloader 
 
 ![Electron](https://img.shields.io/badge/Electron-191970?style=for-the-badge&logo=Electron&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
@@ -14,7 +14,7 @@ Hey there! YT-Downloader is a desktop app made with Electron, React, and TypeScr
 
 - **Custom Mixes**: You can safely drop in your YouTube cookies, and the app will generate Mixes based on your very own YouTube algorithm. (Don't worry, these cookies stay on your computer and are NEVER shared with anyone else).
 
-- **Under the Hood**: All the heavy lifting is handled by the open-source tools `yt-dlp` and `FFmpeg` so remember those support them!.
+- **Under the Hood**: All the heavy lifting is handled by the open-source tools `yt-dlp` and `FFmpeg` so remember to support them!
 
 ## Compatibility
 
