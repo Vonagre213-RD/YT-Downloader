@@ -14,17 +14,17 @@
 
 - **Mixes personalizados**: Puedes poner tus cookies de YouTube de forma segura y la aplicación generará Mixes basados en tu propio algoritmo de YouTube. (No te preocupes, estas cookies se quedan en tu computadora y NUNCA se comparten con nadie más).
 
-- **Bajo el capó**: Todo el trabajo pesado lo manejan las herramientas de código abierto `yt-dlp` y `FFmpeg`, ¡así que recuerda apoyarlos!
+- **Por debajo**: Todo el trabajo pesado lo manejan las herramientas de código abierto `yt-dlp` y `FFmpeg`, ¡así que recuerda apoyarlos!
 
 ## Compatibilidad
 
 Ahora mismo, la experiencia más fácil es en **Windows**. La aplicación se encargará automáticamente de descargar y configurar `yt-dlp` y `FFmpeg` por ti.
 
-*Nota rápida: Si usas macOS o Linux, ¡debería funcionar bien! Solo tendrás que instalar manualmente `yt-dlp` y `FFmpeg` en tu máquina primero.*
+*Nota rápida: Si usas macOS o Linux, ¡debería funcionar bien! Solo tendrás que instalar manualmente `yt-dlp` y `FFmpeg` en tu máquina primero y usar sus respectivos comandos de compilación descargando el código fuente.*
 
 ## Instalación 
 
-¡Es bastante simple! Solo descarga el archivo `yt-Downloader-App.zip` desde la sección de **Releases** (Lanzamientos), extráelo y ejecuta el instalador que está adentro llamado `yt-downloader-[app-version]-setup.exe`. 
+¡Es bastante simple! Solo descarga el `yt-downloader-[app-version]-setup.exe`, ejecútalo y espera. Y para la versión portable, solo descarga el `YT-Downloader-[app-version]-Portable.zip` desde la sección de **Releases** (Lanzamientos), extráelo y ejecuta el archivo llamado `yt-downloader.exe` que está adentro.
 
 *Nota: Puede que te salga una advertencia de "Windows protegió su PC". No te preocupes, no es un virus, es solo porque la aplicación es nueva y aún no tengo un certificado de desarrollador. De todos modos, si eres precavido, ¡eres totalmente libre de revisar todo el código fuente aquí y verlo por ti mismo!*
 

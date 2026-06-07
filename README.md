@@ -20,11 +20,11 @@ Hey there! YT-Downloader is a desktop app made with Electron, React, and TypeScr
 
 Right now, the easiest experience is on **Windows**. The app will automatically handle downloading and setting up `yt-dlp` and `FFmpeg` for you.
 
-*Quick note: If you're on macOS or Linux, it should still work fine! You'll just need to manually install `yt-dlp` and `FFmpeg` on your machine first.*
+*Quick note: If you're on macOS or Linux, it should still work fine! You'll just need to manually install `yt-dlp` and `FFmpeg` on your machine first and use it's respective build commands downloading the source code.*
 
 ## Installation 
 
-It's pretty simple! Just grab the `yt-Downloader-App.zip` from the **Releases** section, extract it, and run the installer inside named `yt-downloader-[app-version]-setup.exe`. 
+It's pretty simple!Just download the `yt-downloader-[app-version]-setup.exe` and just execute it and wait. And for the portable version Just download the `YT-Downloader-[app-version]-Portable.zip` from the **Releases** section, extract it, and run the executable inside named `yt-downloader.exe`. 
 
 *Note: You might get a "Windows protected your PC" warning. Don't worry, it's just because the app is new and I don't have a developer certificate yet. If you're cautious, you're totally free to check out all the source code here and see for yourself!*
 
