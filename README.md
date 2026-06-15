@@ -4,7 +4,7 @@
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 
-Hey there! YT-Downloader is a desktop app made with Electron, React, and TypeScript. It lets you grab YouTube videos and audio for free, in the best quality available. 
+Hi, YT-Downloader is a desktop app made with Electron, React, and TypeScript. It lets you grab YouTube videos and audio for free, in the best quality available. 
 
 ## What does it do?
 
@@ -14,7 +14,7 @@ Hey there! YT-Downloader is a desktop app made with Electron, React, and TypeScr
 
 - **Custom Mixes**: You can safely drop in your YouTube cookies, and the app will generate Mixes based on your very own YouTube algorithm. (Don't worry, these cookies stay on your computer and are NEVER shared with anyone else).
 
-- **Under the Hood**: All the heavy lifting is handled by the open-source tools `yt-dlp` and `FFmpeg` so remember to support them!
+- **Things it uses underneath**: All the heavy lifting is handled by the open-source tools `yt-dlp` and `FFmpeg` so remember to support them!
 
 ## Compatibility
 
@@ -24,7 +24,7 @@ Right now, the easiest experience is on **Windows**. The app will automatically 
 
 ## Installation 
 
-It's pretty simple!Just download the `yt-downloader-[app-version]-setup.exe` and just execute it and wait. And for the portable version Just download the `YT-Downloader-[app-version]-Portable.zip` from the **Releases** section, extract it, and run the executable inside named `yt-downloader.exe`. 
+It's pretty simple! Just download the `yt-downloader-[app-version]-setup.exe` and just execute it and wait. And for the portable version Just download the `YT-Downloader-[app-version]-Portable.zip` from the **Releases** section, extract it, and run the executable inside named `yt-downloader.exe`. 
 
 *Note: You might get a "Windows protected your PC" warning. Don't worry, it's just because the app is new and I don't have a developer certificate yet. If you're cautious, you're totally free to check out all the source code here and see for yourself!*
 
@@ -50,7 +50,7 @@ Wanna mess with the code or see it running? Boot up the dev server:
 pnpm dev
 ```
 
-## 🛠️ Building the App
+## Building the App
 
 If you want to package the app into a neat little executable, run one of these depending on your OS:
 
